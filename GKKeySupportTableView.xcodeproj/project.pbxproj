@@ -21,6 +21,7 @@
 		C1D68C361806D81700966619 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D68C181806D81700966619 /* UIKit.framework */; };
 		C1D68C3E1806D81700966619 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1D68C3C1806D81700966619 /* InfoPlist.strings */; };
 		C1D68C401806D81700966619 /* GKKeySupportTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D68C3F1806D81700966619 /* GKKeySupportTableViewTests.m */; };
+		C1D68C4B1806D92500966619 /* UITableView+GKKeyNavigationSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D68C4A1806D92500966619 /* UITableView+GKKeyNavigationSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C1D68C3B1806D81700966619 /* GKKeySupportTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKKeySupportTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		C1D68C3D1806D81700966619 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1D68C3F1806D81700966619 /* GKKeySupportTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKKeySupportTableViewTests.m; sourceTree = "<group>"; };
+		C1D68C491806D92500966619 /* UITableView+GKKeyNavigationSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+GKKeyNavigationSupport.h"; sourceTree = "<group>"; };
+		C1D68C4A1806D92500966619 /* UITableView+GKKeyNavigationSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GKKeyNavigationSupport.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C1D68C261806D81700966619 /* Main.storyboard */,
 				C1D68C291806D81700966619 /* GKViewController.h */,
 				C1D68C2A1806D81700966619 /* GKViewController.m */,
+				C1D68C491806D92500966619 /* UITableView+GKKeyNavigationSupport.h */,
+				C1D68C4A1806D92500966619 /* UITableView+GKKeyNavigationSupport.m */,
 				C1D68C2C1806D81700966619 /* Images.xcassets */,
 				C1D68C1B1806D81700966619 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				C1D68C251806D81700966619 /* GKAppDelegate.m in Sources */,
 				C1D68C2B1806D81700966619 /* GKViewController.m in Sources */,
 				C1D68C211806D81700966619 /* main.m in Sources */,
+				C1D68C4B1806D92500966619 /* UITableView+GKKeyNavigationSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
